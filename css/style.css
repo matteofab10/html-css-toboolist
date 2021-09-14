@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-boolean {
+}
+
+.logo-text {
+  color: #051933;
+  font-size: 40px;
+  vertical-align: top;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 5px;
+}
+
+.type-bottom {
+  background-color: lightskyblue;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.type-bottom-two {
+ margin: 5px;
+ padding: 5px;
+ border-radius: 5px;
+}
+
+.first-title {
+  font-size: 18px;
+}
+
+.check-button {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: red;
+  border-style: solid green;
+  border-radius: 50%;
+}
