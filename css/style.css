@@ -1,13 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .logo-text {
   color: #051933;
   font-size: 40px;
   vertical-align: top;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin-left: 5px;
 }
 
@@ -33,6 +33,7 @@
   margin: 5px;
   padding: 5px;
   border-radius: 5px;
+  border: 1px solid lightskyblue ;
 }
 
 .type-bottom-two {
@@ -50,98 +51,63 @@
   line-height: 50px;
 }
 
-.check-button {
+.btn {
   display: inline-block;
   width: 20px;
   height: 20px;
   line-height: 20px;
   text-align: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.btn-green {
   color: green;
-  background-color: white;
   border: 1px solid green;
-  border-radius: 50%;
 }
 
-.check-button-red {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  text-align: center;
+.btn-red {
   color: red;
-  background-color: white;
   border: 1px solid red;
-  border-radius: 50%;
 }
 
-.info-button-blue {
+.info-button {
   width: 100px;
-  height: 100px;
+  margin: 5px;
+  font-size: 10px;
   padding: 5px;
   line-height: 20px;
   text-align: center;
   color: white;
+  border-radius: 30%;
+}
+
+.bg-blue {
   background-color: blue;
   border: 1px solid blue;
-  border-radius: 20%;
 }
 
-.info-button-purple {
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  line-height: 20px;
-  text-align: center;
-  color: white;
+.bg-purple {
   background-color: purple;
   border: 1px solid purple;
-  border-radius: 20%;
 }
 
-.info-button-darkgreen {
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  line-height: 20px;
-  text-align: center;
-  color: white;
+.bg-darkgreen {
   background-color: darkgreen;
   border: 1px solid darkgreen;
-  border-radius: 20%;
 }
 
-.info-button-orange {
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  line-height: 20px;
-  text-align: center;
-  color: white;
+.bg-orange {
   background-color: orange;
   border: 1px solid orange;
-  border-radius: 20%;
 }
 
-.info-button-violet {
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  line-height: 20px;
-  text-align: center;
-  color: white;
+.bg-violet {
   background-color: violet;
   border: 1px solid violet;
-  border-radius: 20%;
 }
 
-.info-button-yellow {
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  line-height: 20px;
-  text-align: center;
-  color: white;
+.bg-yellow {
   background-color: yellowgreen;
   border: 1px solid yellowgreen;
-  border-radius: 20%;
 }
